@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id" class="bg-white text-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Riyano Cardin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div class="container mx-auto flex justify-between items-center px-6 py-4">
+        <h1 class="text-2xl font-bold text-blue-600">Riyano Cardin</h1>
+        <nav class="space-x-6 text-sm font-medium">
+          <a href="#about" class="hover:text-blue-600">Tentang</a>
+          <a href="#skills" class="hover:text-blue-600">Skill</a>
+          <a href="#projects" class="hover:text-blue-600">Proyek</a>
+          <a href="#contact" class="hover:text-blue-600">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-20 bg-gradient-to-br from-blue-50 to-white">
+      <h2 class="text-4xl font-extrabold text-gray-900 mb-2">Halo, Saya <span class="text-blue-600">Riyano Cardin</span></h2>
+      <p class="text-lg text-gray-600">Monitoring Engineer • Data Integration • Linux Enthusiast</p>
+    </section>
+
+    <!-- Tentang -->
+    <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4 text-blue-600">Tentang Saya</h3>
+      <p class="text-gray-700 leading-relaxed">
+        Saya adalah seorang profesional di bidang IT yang fokus pada monitoring sistem dan integrasi data. Terbiasa menggunakan berbagai tools seperti Grafana, Prometheus, MySQL, dan PostgreSQL pada sistem operasi Linux (Ubuntu).
+      </p>
+    </section>
+
+    <!-- Skill -->
+    <section id="skills" class="py-16 bg-gray-50 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold mb-6 text-blue-600">Skill</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-800 font-medium">
+          <div class="bg-white p-4 rounded shadow text-center">Grafana</div>
+          <div class="bg-white p-4 rounded shadow text-center">Prometheus</div>
+          <div class="bg-white p-4 rounded shadow text-center">MySQL</div>
+          <div class="bg-white p-4 rounded shadow text-center">PostgreSQL</div>
+          <div class="bg-white p-4 rounded shadow text-center">Apache NiFi</div>
+          <div class="bg-white p-4 rounded shadow text-center">Linux (Ubuntu)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="py-16 px-6 max-w-5xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6 text-blue-600">Proyek Monitoring</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-semibold text-gray-800">Grafana + MySQL</h4>
+          <p class="text-gray-600 text-sm mt-2">Monitoring status layanan secara real-time dari database MySQL menggunakan panel stat, heatmap, dan alert otomatis di Grafana.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-semibold text-gray-800">Grafana + PostgreSQL</h4>
+          <p class="text-gray-600 text-sm mt-2">Visualisasi data dari PostgreSQL untuk kebutuhan sistem audit dan fraud detection, terintegrasi dengan dashboard multi-layer di Grafana.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-semibold text-gray-800">Grafana + Prometheus</h4>
+          <p class="text-gray-600 text-sm mt-2">Monitoring infrastruktur berbasis Prometheus Exporter dan custom metrics untuk server Linux, aplikasi, dan service endpoint.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="py-16 bg-gray-50 text-center px-6">
+      <h3 class="text-2xl font-bold mb-4 text-blue-600">Hubungi Saya</h3>
+      <p class="text-gray-700">Email: <a href="mailto:riyano@example.com" class="text-blue-600">riyano@example.com</a></p>
+      <p class="text-gray-700 mt-2">LinkedIn: <a href="https://linkedin.com/in/riyano" class="text-blue-600">linkedin.com/in/riyano</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-6 shadow-inner text-sm text-gray-500">
+      © 2025 Riyano Cardin. Dibuat dengan ♥ dan Tailwind CSS.
+    </footer>
+
+  </body>
+</html>
